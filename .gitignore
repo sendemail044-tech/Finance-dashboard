@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.db
+*.sqlite
+finance-backup*
+finance-export*
+*.xlsx
+*.xls
+*.csv
+*.pdf

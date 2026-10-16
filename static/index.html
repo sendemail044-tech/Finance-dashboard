@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Finances</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div id="shell">
+  <aside id="nav">
+    <div class="brand"><span class="dot"></span>My Finances</div>
+    <nav id="links"></nav>
+  </aside>
+  <div id="main">
+    <header>
+      <h1 id="title"></h1>
+      <div class="hdr-actions">
+        <button class="icon-btn" id="hideBtn" title="Hide / show amounts">Hide amounts</button>
+        <button class="icon-btn" id="lockBtn" title="Lock now">Lock</button>
+      </div>
+    </header>
+    <main id="app"><div id="view"></div></main>
+  </div>
+</div>
+<div id="gate" class="gate" hidden></div>
+<div id="modalRoot"></div>
+<div id="toast" class="toast" hidden></div>
+<script src="/static/chart.umd.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
